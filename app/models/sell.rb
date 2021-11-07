@@ -1,6 +1,9 @@
 class Sell < ApplicationRecord
   include Fae::BaseModelConcern
+
   enum status: { finised: 0, canceled: 1}
+
+  validates :client, presence: true
 
   def fae_display_field
     id
