@@ -4,7 +4,7 @@ main.content
   table.js-sort-column
     thead
       tr
-        th Name
+        th ID
         th Date
         th Cliet
         th Total
@@ -20,6 +20,6 @@ main.content
             td = item.client.name
             td = item.total
             td = fae_date_format item.updated_at
-            td = fae_delete_button item
+            td = fae_delete_button item, "/admin/sells/#{item.id}"
       - else
         tr: td colspan="3" No items found

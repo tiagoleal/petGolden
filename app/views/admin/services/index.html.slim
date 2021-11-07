@@ -17,5 +17,6 @@ main.content
             td = item.price
             td = fae_date_format item.updated_at
             td = fae_delete_button item
+            td = fae_delete_button item, "/admin/services/#{item.id}"
       - else
         tr: td colspan="3" No items found
