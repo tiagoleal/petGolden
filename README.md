@@ -1,7 +1,6 @@
 <p align="center">
   <a href="#">
-   <img alt="PetGolden" src="https://github.com/tiagoleal/
-    petGolden/blob/master/app/assets/images/logo.png?raw=true" width="200">
+   <img alt="PetGolden" src="https://github.com/tiagoleal/petGolden/blob/master/app/assets/images/logo.png?raw=true" width="200">
   </a>
 </p>
 
